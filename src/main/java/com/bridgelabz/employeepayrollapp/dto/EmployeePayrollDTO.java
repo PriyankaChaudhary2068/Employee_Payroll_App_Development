@@ -1,5 +1,8 @@
 package com.bridgelabz.employeepayrollapp.dto;
 
+import lombok.Data;
+
+@Data
 public class EmployeePayrollDTO {
 
     public String name;
@@ -12,7 +15,7 @@ public class EmployeePayrollDTO {
 
     @Override
     public String toString() {
-        return "name="+name+":salary="+salary;
+        return "name=" + name + ":salary=" + salary;
     }
 }
 
