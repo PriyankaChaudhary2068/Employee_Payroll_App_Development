@@ -13,10 +13,17 @@ public class EmployeePayrollData {
     public EmployeePayrollData() {
     }
 
-    public EmployeePayrollData(int employeeId, EmployeePayrollDTO employeePayrollDTO) {
-        this.employeeId = employeeId;
+    public EmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO) {
+        this.employeeId = empId;
         this.name = employeePayrollDTO.name;
         this.salary = employeePayrollDTO.salary;
     }
 }
+
+
+
+
+
+
+
 
